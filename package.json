@@ -1,10 +1,10 @@
 {
   "name": "linaria-css-grid",
-  "version": "0.0.0-development",
+  "version": "0.0.4-development",
   "description": "A tiny CSS grid layout for React, built with liniara. Forked from https://styled-css-grid.js.org",
   "homepage": "",
-  "main": "dist/styled-css-grid.umd.js",
-  "module": "dist/styled-css-grid.esm.js",
+  "main": "dist/index.js",
+  "module": "src/index.js",
   "repository": "https://github.com/qburnsFB/styled-css-grid",
   "author": "Quinton Burns",
   "license": "MIT",

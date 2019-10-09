@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import { styled } from 'linaria/react';;
 import { Grid, Cell } from "../../";
 import colors from "../colors";
 

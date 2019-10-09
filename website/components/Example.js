@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import { styled } from 'linaria/react';;
 
 const browse = "https://github.com/azz/styled-css-grid/blob/master/";
 

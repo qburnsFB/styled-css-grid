@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import { styled } from 'linaria/react';;
 
 const H2 = styled.h2`
   margin-top: 3rem;

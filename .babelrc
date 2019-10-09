@@ -1,5 +1,5 @@
 {
-  "presets": [["es2015", { "modules": false }], "react"],
+  "presets": ["linaria/babel",["es2015", { "modules": false }], "react"],
   "env": {
     "development": {
       "plugins": [["transform-es2015-modules-commonjs", { "loose": true }]]
@@ -11,7 +11,7 @@
       "plugins": [["transform-es2015-modules-commonjs", { "loose": true }]]
     },
     "build": {
-      "plugins": ["external-helpers", ["styled-components", { "minify": true }]]
+      "plugins": ["external-helpers", ["linaria", { "evaluate": true }]]
     }
   }
 }

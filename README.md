@@ -1,4 +1,4 @@
-# `styled-css-grid 🍱`
+# `linaria-css-grid 🍱`
 
 [![Travis](https://img.shields.io/travis/azz/styled-css-grid.svg?style=flat-square)](https://travis-ci.org/azz/styled-css-grid)
 [![Prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 [![JS.ORG](https://img.shields.io/badge/js.org-dns-ffb400.svg?style=flat-square)](http://js.org)
 
-> A tiny (~2kb) [CSS grid] layout for React, built with [styled-components] 💅.
+> A tiny (~2kb) [CSS grid] layout for React, built with [linaria] 💅.
 
 ## examples
 
@@ -15,7 +15,7 @@ See the **[website]**.
 
 ## installation
 
-Install React and [styled-components], then:
+Install React and [linaria], then:
 
 ```bash
 $ yarn add styled-css-grid

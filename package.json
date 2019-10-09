@@ -1,14 +1,13 @@
 {
-  "name": "styled-css-grid",
+  "name": "linaria-css-grid",
   "version": "0.0.0-development",
-  "description": "A tiny CSS grid layout for React, built with styled-components",
-  "homepage": "https://styled-css-grid.js.org",
+  "description": "A tiny CSS grid layout for React, built with liniara. Forked from https://styled-css-grid.js.org",
+  "homepage": "",
   "main": "dist/styled-css-grid.umd.js",
   "module": "dist/styled-css-grid.esm.js",
-  "repository": "https://github.com/azz/styled-css-grid",
-  "author": "Lucas Azzola",
+  "repository": "https://github.com/qburnsFB/styled-css-grid",
+  "author": "Quinton Burns",
   "license": "MIT",
-  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -16,13 +15,13 @@
     "grid",
     "css",
     "react",
-    "styled-components"
+    "linaria"
   ],
   "scripts": {
     "lint": "eslint .",
     "prettier": "prettier --write \"{lib,website,scripts}/*.js\"",
     "test": "jest",
-    "build": "node scripts/build",
+    "build": "webpack",
     "watch:site": "rollup -c scripts/rollup.website.config.js -w",
     "start": "http-server website/bin",
     "semantic-release": "semantic-release"
@@ -33,10 +32,14 @@
     "styled-components": "^2 || ^3 || ^4"
   },
   "dependencies": {
-    "prop-types": "^15.6.0"
+    "@babel/preset-typescript": "^7.6.0",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
   },
   "devDependencies": {
-    "babel-core": "^6.25.0",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-styled-components": "^1.1.7",
     "babel-polyfill": "^6.23.0",
@@ -60,17 +63,8 @@
     "react": "next",
     "react-dom": "next",
     "react-test-renderer": "next",
-    "rollup": "^0.45.2",
-    "rollup-plugin-babel": "^2.7.1",
-    "rollup-plugin-commonjs": "^8.0.2",
-    "rollup-plugin-css-only": "^0.2.0",
-    "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-replace": "^1.1.1",
-    "rollup-plugin-uglify": "^2.0.1",
-    "rollup-watch": "^4.3.1",
     "semantic-release": "^15.9.8",
     "shelljs": "^0.7.8",
-    "styled-components": "^2.1.1",
     "uglify-es": "^3.0.26"
   }
 }
